@@ -1,5 +1,3 @@
-//https://youtu.be/ROalU379l3U
-
 //Время работы O(n^2).
 
 /**

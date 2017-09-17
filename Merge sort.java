@@ -1,5 +1,3 @@
-//https://youtu.be/XaqR3G_NVoo
-
 //Время работы O(nlog(n)).
 
 /**
