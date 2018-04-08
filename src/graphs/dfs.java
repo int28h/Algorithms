@@ -64,12 +64,10 @@ public class DFS {
 	private static class Arc {
 		int from;
 		int to;
-		boolean isUsed;
 		
 		private Arc(int from, int to) {
 			this.from = from;
 			this.to = to;
-			this.isUsed = false;
 		}
 	}	
 	
@@ -127,11 +125,11 @@ public class DFS {
 		
 		if(arcsCount != 0) {
 			dfs(taskFrom);
-			System.out.println(wasVisited.toString());
+			for(int i : wasVisited) {
+				System.out.print(i + " ");
+			}
 		} else {
 			System.out.println("Arcscount = 0");
 		}
-		
-		System.out.println("Complete.");
 	}
 }
